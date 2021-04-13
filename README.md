@@ -1,4 +1,19 @@
-# Readme_Generator
-A Node App which allows users to create a readme file from the responses user inputs as a response to relevant questions about a project 
 
-## Terminal
+## Title:ni
+## Description:
+ik
+## Table of Contents: 
+df
+## Installation: 
+fd
+## Usage:
+sdfg
+## License:
+dg
+## Contributors:
+sfd
+## Tests:
+undefined
+## Questions: 
+fd
+        
