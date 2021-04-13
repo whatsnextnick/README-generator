@@ -52,34 +52,18 @@ inquirer
         const title = data.Title;
         const description = data.Description;
         const tableofcontents = data.Contents;
-        const installation = data.Installation;
-        const usage = data.Usage;
-        const license = data.License;
-        const contributors = data.Contributors;
-        const tests = data.Tests;
-        const questions = data.Questions;
 
         let readmeContent = `
-## Title:${title}
-
-## Description:
-${description}
-## Table of Contents: 
-${tableofcontents}
-## Installation: 
-${installation}
-## Usage:
-${usage}
-## License:
-${license}
-## Contributors:
-${contributors}
-## Tests:
-${tests}
-## Questions: 
-${questions}
+        ##Title: ${title}
+        ##Description: 
+        ${description}
+        ##Table of Contents: 
+        ${tableofcontents}
+        
+        
+        
         `;
-        fs.writeFile("README.md", readmeContent, err => {
+        fs.writeFile("readme.txt", readmeContent, err => {
             if (err) {
                 throw err;
             }
