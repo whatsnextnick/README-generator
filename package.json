@@ -1,0 +1,23 @@
+{
+    "name": "readme",
+    "version": "1.0.0",
+    "description": "[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nelio/some) ​ ## Description ​ It's cool ​ ## Table of Contents  ​ * [Installation](#installation) ​ * [Usage](#usage) ​ * [License](#license) ​ * [Contributing](#contributing) ​ * [Tests](#tests) ​ * [Questions](#questions) ​ ## Installation ​ To install necessary dependencies, run the following command: ​ ``` npm i ``` ​ ## Usage ​ nothing ​ ## License ​ This project is licensed under the MIT license.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/whatsnextnick/README-generator.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/whatsnextnick/README-generator/issues"
+    },
+    "homepage": "https://github.com/whatsnextnick/README-generator",
+    "dependencies": {
+      "inq": "^0.1.6",
+      "inquirer": "^7.0.6"
+    }
+  }
